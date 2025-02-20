@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>kgqgj_1.png</file>
+        <file>zT44IFVH.png</file>
+        <file>main_lobby.jpg</file>
+        <file>fight.jpg</file>
+        <file>blood.png</file>
+        <file>money.png</file>
+    </qresource>
+    <qresource prefix="/medal">
+        <file>1.png</file>
+        <file>2.png</file>
+        <file>3.png</file>
+        <file>4.png</file>
+        <file>5.png</file>
+        <file>6.png</file>
+    </qresource>
+    <qresource prefix="/music">
+        <file>hanlunna.wav</file>
+        <file>kannong.wav</file>
+        <file>fight_bgm.wav</file>
+    </qresource>
+</RCC>
