@@ -1,0 +1,28 @@
+样例1：
+E,T,F
++,*,(,),id
+E
+E -> E + T | T
+T -> T * F | F
+F -> ( E ) | id
+.
+id + id * id $
+
+样例2：
+E,L
+(,),a
+E
+E -> ( L ) | a
+L -> E L | E
+.
+( ( a ) a ( a a ) ) $
+
+样例3：
+E,T,F
++,-,*,/,(,),num
+E
+E -> E + T | E - T | T
+T -> T * F | T / F | F
+F -> ( E ) | num
+.
+num * ( num + ( num * ( num - ( num / num + ( num - num / num ) ) ) ) ) / num - num + num $
